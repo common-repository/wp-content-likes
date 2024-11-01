@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .social-likes .st0 {
+  fill: none;
+  stroke: #5C6164; }
+
+.social-likes .st1 {
+  fill: #5C6164; }
+
+.social-likes:hover {
+  text-decoration: none; }
+  .social-likes:hover .likes-count {
+    background: #a0c646;
+    text-decoration: none;
+    -webkit-transition: .1s linear;
+    -o-transition: .1s linear;
+    transition: .1s linear; }
+
+.social-likes.active .st0 {
+  fill: #fff;
+  stroke: #0087c1; }
+
+.social-likes.active .st1 {
+  fill: #0087c1; }
+
+.social-likes.active .likes-count {
+  background: #0087c1; }
+
+.social-likes.active:hover .likes-count {
+  background: #0087c1; }
+
+.social-likes.active:hover .st0 {
+  fill: #fff;
+  stroke: #0087c1; }
+
+.social-likes.active:hover .st1 {
+  fill: #0087c1; }
+
+.likes-count {
+  border-radius: 2px;
+  background: #5C6164;
+  color: white;
+  height: 1.2rem;
+  width: 1rem;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translateY(-2.5rem) translateX(1.85rem);
+  -ms-transform: translateY(-2.5rem) translateX(1.85rem);
+  transform: translateY(-2.5rem) translateX(1.85rem); }
